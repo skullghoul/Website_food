@@ -1,0 +1,137 @@
+* {
+   margin: 0; 
+}
+
+.back1 {
+    background-image: url("..//images/greens.jpg");
+    height: 100vh;
+}
+.back2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+.tab ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+    gap:10px;
+    align-items: baseline;
+    padding-top: 12px;
+    font-size: 20px;
+    color: white;
+}
+.tab h2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-size:20px ;
+    color: white;
+}
+.tab {
+    border-bottom: 1px solid white;
+    margin-left: 60px;
+    margin-right :60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+}
+.title .ud {
+    align-self: flex-end;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.title h1 {
+    text-align: center;
+    align-self: flex-end;
+    border-bottom: 1px solid white;
+    font-size: 80px;
+    margin: 0 550px;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Neonderthaw', cursive;
+}
+.newW {
+    background-color: black;
+    display: flex;
+}
+.bread {
+    background-image: url(../images/bread.jpg);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 425px;
+    background-size: cover;
+    background-position: center;
+}
+.newW .bText {
+    color: white;
+    width: 60%;
+    align-items: flex-start;
+    align-self: center;
+    flex-direction: row;
+    font-size: 28px;
+    margin-left: 60px;
+}
+.newW p {
+    margin-top: 35px;
+    font-size: 27px;
+}
+.mainPine {
+    background-color: #121212;
+    display: flex;
+}
+.pineapple {
+    background-image: url(../images/pineapple.jpg);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap-reverse;
+}
+.mainPine .pineText {
+    color: white;
+    width: 60%;
+    align-items: flex-start;
+    align-self: center;
+    flex-direction: row;
+    font-size: 28px;
+    margin-left: 60px;
+}
+.mainPine p {
+    margin-top: 30px;
+    font-size: 27px;
+}
+.mainPasta {
+    background-color: #212121;
+    display: flex;
+}
+.pasta {
+    background-image: url(..//images/pasta.jpg);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 425px;
+    background-size: cover;
+    background-position: center;
+}
+.mainPasta .pasText {
+    color: white;
+    width: 60%;
+    align-items: flex-start;
+    align-self: center;
+    flex-direction: row;
+    font-size: 28px;
+    margin-left: 60px;
+}
+.mainPasta p {
+    margin-top: 30px;
+    font-size: 27px;
+}
