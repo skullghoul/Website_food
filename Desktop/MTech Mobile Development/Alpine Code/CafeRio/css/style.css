@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+.REWARDS{
+    padding-top: 30px;
+    padding-left: -70px;
+    color: black;
+    font-size: 11px;
+    float: left;
+}
+body {
+     background-color: rgb(66, 66, 66);
+    }
+.cafe1{
+    padding: 15px 5px;
+    float: left;
+    width: calc(100% - 710px);
+}
+.cafe1 ul {
+    padding: 0px;
+    text-align: center;
+}
+.cafe1 ul li {
+    display:inline;
+}
+.cafe1 ul li a {
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+    padding: 10px 5px;
+}
+.cafe1 ul li a:hover {
+    color: black;
+    background-color: rgb(241, 246, 247);
+}
+.Caferio {
+    width: 200px;
+    float: left;
+}
+.Caferio img{
+    width:160px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.Perm {
+    float: left;
+    font-size: 5px;
+    padding-left: 5px;
+} 
+.material-icons {
+    padding-top: 24px;
+    float: left;
+}
+.localcafe {
+    float: left;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+.bag{
+    float: left;
+}
+.menu{
+    display: none;
+}
+.box {
+    width: 0px;
+    height: 100vh;
+    background-color: black;
+    transition: .5s;
+}
+.openBox {
+    width: 300px;
+}
+
+
+
+
+
+@media screen and (max-width:1300px){
+    .cafe1{
+  display: none;
+    }
+    .menu{
+        display: block;
+        float: left;
+    }
+    .bag{
+        float: right;
+    }
+    .localcafe {
+        float:right;
+    }
+
+}
+@media screen and (max-width: 1230px){
+    .localcafe {
+        display: none;
+    
+    }
+    .REWARDS {
+        display: none;
+    }
+    .bag{
+        width: 26px;
+        float: right;
+    }
+    .Perm {
+        float: right;
+    }
+
+}

@@ -1,0 +1,50 @@
+* {
+    margin:0;=
+    box-sizing: border-box;
+}
+.nav1{
+    background-color: orangered;
+    padding: 15px 0px;
+}
+.nav1 ul {
+    padding: 0px;
+    text-align: center;
+}
+
+.nav1 ul li {
+    display: inline;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+.nav1 ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav1 ul li a:hover {
+    color: gray;
+}
+
+
+.nav2{
+    background-color: orangered;
+    padding: 20px 0px;
+}
+.nav2 ul {
+    padding: 0px;
+    text-align: center;
+}
+
+.nav2 ul li {
+    display: inline;
+}
+.nav2 ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: .5s;
+    padding: 20px 30px;
+}
+.nav2 ul li a:hover {
+    color: black;
+    background-color: gray;
+}

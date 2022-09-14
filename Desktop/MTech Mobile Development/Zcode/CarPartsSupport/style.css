@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: rgb(232, 232, 232);
+}
+header {
+    background-color: rgba(255, 255, 255, 0.911);
+    position: sticky;
+    top: 0;
+}
+#contentWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+header, .comments, .holderDCS, .individualComment{
+    padding: 20px;
+}
+
+.userName {
+    font-size: 23px;
+}
+.originalPost {
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+}
+.what {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.comments {
+    background-color: rgb(208, 208, 208);
+
+}
+.individualComment {
+    display: flex;
+    justify-content: flex-start;
+}
+.commentWrapper {
+    background-color: rgb(216, 216, 216);
+}
+.profile {
+    width: 45px;
+}
+.comment {
+    width: 100%;
+}
+.edit {
+    width: 112px;
+}
+.Edit {    
+    padding: 10px;
+    color: rgb(122, 195, 227);
+}
+.Delete {
+    color: rgb(122, 195, 227);
+}
+.submit {
+    color: rgb(122, 195, 227);
+}
+.holderDCS {
+    background-color: rgb(220, 220, 220);
+    position: sticky;
+    bottom: 0;
+}
+.displayName form {
+    display: flex;
+    gap: 10px;
+}
+.displayName form input.textDisplay, .displayName form .submit {
+    flex-grow: 1;
+
+}
+.displayName form input.textComment {
+    flex-grow: 9;
+}
+.socialComment {
+    font-size: 44px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.UpdateComment{
+    color: rgb(122, 195, 227);;
+}

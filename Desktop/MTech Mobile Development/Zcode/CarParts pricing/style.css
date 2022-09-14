@@ -1,0 +1,94 @@
+.bodyContainer {
+    margin: 0 auto;
+    max-width: 960px;   
+}
+.line{
+    border-bottom: 1px solid black;
+    max-width: 5%;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    padding: 10px; 
+    background-color: rgb(230, 230, 230);
+  }
+  
+
+
+
+
+  .inStock, .notInStock {
+    font-family: Helvetica;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  
+
+.notInStock .p {
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    margin-top:6px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 0px 3px 10px;
+    box-shadow: 0px 2px 0px 1px  rgb(147, 147, 147);
+  }
+.notInStock .p p {
+    flex-basis: 33.3%;
+}
+#clickMe {
+
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border: black solid ;
+    margin-top: -12px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+  .darkMode {
+    background-color: rgb(41, 41, 41);
+  }
+
+.darkMode .line{
+    border-bottom: 1px solid white;
+}
+.darkMode h1 {
+    color: white;
+}
+.darkMode .notInStock .p {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    box-shadow: 0px 2px 0px 1px rgb(45, 45, 45);
+}
+
+.darkMode #clickMe {
+    color: white;
+    border: white solid ;
+  }
+
+
+
+  

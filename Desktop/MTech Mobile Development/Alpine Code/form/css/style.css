@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgb(65, 65, 65);
+}
+form {
+    background-color: rgb(147, 230, 253);
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px 15px;
+}
+input[type="text"] {
+    background-color: rgba(128, 128, 128, 0.781);
+    color: white;
+    outline: none;
+    padding-left: 5px;
+}
+input[type="text"]:focus {
+    background-color: rgba(156, 156, 156, 0.781);
+    border: 2px red solid;
+}
+input[type="email"] {
+    background-color: rgba(128, 128, 128, 0.781);
+    color: white;
+    outline: none;
+    padding-left: 5px;
+}
+input[type="email"]:focus {
+    background-color: rgba(156, 156, 156, 0.781);
+    border: 2px red solid;
+    font-family: 'Palette Mosaic', cursive;
+}
+input[type="tel"] {
+    background-color: rgba(128, 128, 128, 0.781);
+    width: 100px;
+    color: white;
+    outline: none;
+    padding: 5px;
+}
+input[type="tel"]:focus{
+    background-color: rgba(156, 156, 156, 0.781);
+    border: 2px red solid;
+    font-family: 'Beau Rivage', cursive;
+}
+::placeholder {
+    opacity: 1;
+    color: white;
+}
+textarea {
+    resize:none;
+    width: 99.5%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.781);
+    color: white;
+    outline: none;
+}
+textarea:focus{
+    background-color: rgba(156, 156, 156, 0.781);
+    border: 2px rgb(189, 78, 78) solid;
+}
+input[type="submit"] {
+    background-image: linear-gradient(red, yellow);
+}
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, yellow, rgba(255,0,0,1));
+
+    width: 75px;
+    height: 25px;
+}

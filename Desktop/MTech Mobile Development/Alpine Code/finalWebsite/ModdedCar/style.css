@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+}
+body {
+    background: 
+      linear-gradient(#123, #0000, #0007);
+      margin: 0;
+      height: 100vh;
+}
+header {
+    text-shadow: 3px 3px rgb(105, 233, 188);
+      justify-content: center;
+      display: flex;
+    font-size: 55px;
+      color: white;
+      background-color: rgb(41, 41, 41);
+  }
+ul {
+    list-style-type: none;
+    background-color: rgb(97, 97, 97);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border-right: 2px black;
+    align-items: center;
+}
+.sporcars {
+    width: 4%;
+    margin-left: 120%;
+    animation-name:sporcar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes sporcar{
+    0%{margin-left: 120%;}
+    100%{margin-left: -50%;}
+  }
+a {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+}
+.Button {
+    top: 50vh;
+    left: 50vh;
+    position: absolute;
+    background-color: rgb(125, 16, 16);
+}
+.button2 {
+    top: 70vh;
+    right: 70vh;
+    position: absolute;
+    background-color:rgb(125, 16, 16);
+}
+.newColorA {
+    display: none;
+    border: 2px rgb(21, 21, 21) dashed;
+}
+.newColorB {
+  display:block;
+}
+.Lacob {
+  display: none;
+  border: 2px rgb(21, 21, 21) dashed;
+}
+.Lacob2 {
+  display:block;
+}
+.tp {
+  width: 100%;
+}
+h6 {
+  background-color: rgba(0, 0, 0, 0.112);
+  text-shadow: 2px 2px #51ff41;
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+}
+.para {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.shi {
+display: flex;
+}
+.parallelogramd {
+  left: 0;
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #555;
+  position: absolute;
+  animation-name: parallelogramd;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+}
+@keyframes parallelogramd{
+  0% {left: 0;}
+  50% {left: calc(100% - 109px);}
+  100% {left: 0;}
+}
+.parallelogramda {
+  top: 50px;
+  left: 0;
+	width: 100px;
+	height: 50px;
+	transform: skew(-20deg);
+	background: #555;
+  position: absolute;
+  animation-name: parallelogramda;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 45s;
+}
+@keyframes parallelogramda{
+  0% {left: 0;}
+  50% {left: calc(100% - 109px);}
+  100% {left: 0;}
+}
+.parallelogramdaa {
+  top: 100px;
+  left: 0;
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #555;
+  position: absolute;
+  animation-name: parallelogramdaa;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 75s;
+}
+@keyframes parallelogramdaa{
+  0% {left: 0;}
+  50% {left: calc(100% - 109px);}
+  100% {left: 0;}
+}
+.parallelogramdaaa {
+  top: 150px;
+  left: 0;
+	width: 100px;
+	height: 50px;
+	transform: skew(-20deg);
+	background: #555;
+  position: absolute;
+  animation-name: parallelogramdaaa;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 105s;
+}
+@keyframes parallelogramdaaa {
+  0% {left: 0;}
+  50% {left: calc(100% - 109px);}
+  100% {left: 0;}
+}
+.otherside {
+  position: relative;
+  display: flex;
+}
+
+
+
+
+
+
+.parallelograms {
+  right: 0;
+  width: 100px;
+  height: 50px;
+  transform: skew(-20deg);
+  background: #555;
+  position: absolute;
+  animation-name: parallelograms;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+}
+@keyframes parallelograms {
+  0% {right: 0;}
+  50% {right: calc(100% - 109px);}
+  100% {right: 0;}
+}
+.parallelogramss {
+  top: 50px;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #555;
+  position: absolute;
+  animation-name: parallelogramss;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 60s;
+}
+@keyframes parallelogramss {
+  0% {right: 0;}
+  50% {right: calc(100% - 109px);}
+  100% {right: 0;}
+}
+.parallelogramsss {
+  top: 100px;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  transform: skew(-20deg);
+  background: #555;
+  position: absolute;
+  animation-name: parallelogramsss;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 90s;
+}
+@keyframes parallelogramsss {
+  0% {right: 0;}
+  50% {right: calc(100% - 109px);}
+  100% {right: 0;}
+}
+.parallelogramssss {
+  top: 150px;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #555;
+  position: absolute;
+  animation-name: parallelogramssss;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-delay: 120s;
+}
+@keyframes parallelogramssss {
+  0% {right: 0;}
+  50% {right: calc(100% - 109px);}
+  100% {right: 0;}
+}
+.twoofus {
+  position: absolute;
+  right: 25%;
+  top: 20%;
+}
+.kkjk {
+  font-size: 20px;
+}
+.towmat {
+  position: absolute;
+  left: 25%;
+  top: 45%;
+}
+.towmator {
+  position: absolute;
+  right: 25%;
+  top: 70%; 
+}

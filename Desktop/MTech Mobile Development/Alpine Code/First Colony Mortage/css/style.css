@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: whitesmoke;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.911);
+    height: 145px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.headerCont{
+    max-width: 1250px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.tBar li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    font-size: 20px;
+    color: gray;
+}
+.tBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+.tImg {
+    padding-top: 50px;
+    float: left;
+}
+.banner {
+    background-image: url(../images/foodtrad.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bannerText{
+    padding-top: 300px;
+    color: rgb(124, 124, 124);
+    padding-left: 233px;
+    
+}
+.bannerText h2 {
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 100;
+}
+.quoteRequest {
+    position: fixed;
+    right: -66px;
+    top: 45%;
+    z-index:5;
+    background-color: #0083bf;
+    transform:rotate(90deg);
+    padding:20px 30px;
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.bannerText .bold{
+    font-weight: 900;
+}
+.container {
+    position: absolute;
+}
+.banner .bold h2 {
+    font-weight: 100px;
+}
+.phoneNumber {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 45px;
+}
+.banner .bane {
+    position: absolute;
+    padding-top: 623px;
+    font-size: 40px;
+    padding-left: 238px;
+}
+.banner h5 {
+    background-color: #0083bf;
+    text-transform: uppercase;
+    width:200px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 13px;
+    color: white;
+
+}
+.boxback{
+    background-color: rgb(253, 253, 253);
+    height: 647px;
+}
+.boxhome {
+    max-width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxhome h2 {
+    flex: 100%;
+    font-size: 30px;
+}
+.flexItem {
+    height: 400px;
+    border-right:2px solid gray;
+    flex: 1;
+}
+.no-border {
+    border:none;;
+}
+.companyDes .backgroundHouse {
+    background-image: url(..//images/houseBackground.jpg);
+}
+.backgroundHouse {
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.descript {
+    padding: 110px 0;
+    color: rgb(124, 124, 124);
+    text-align: center;
+}
+.descript p {
+    padding:0 18%;
+    text-align: left;
+    font-size: 20px;
+}
+.descript h2 {
+    padding: 0 21%;
+}
+.Numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Numbers ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 12px;
+    font-size: 38px;
+    color: black;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 213px;
+    max-width: 1200px;
+}
+.HLLLA ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 12px;
+    font-size: 18px;
+    color: black;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 128px;
+    text-transform: uppercase;
+}
+.HLLLA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.innerBlue {
+    padding: 60px 0;
+    background-color: #0083bf;
+}
+.linesBackground {
+    background-image: url(../images/boards.jpeg);
+}
+.typeLoan h1 {
+    display: flex;
+    color: rgb(124, 124, 124);
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+.blueLine {
+    border-bottom: 3px solid #0083bf;
+    margin: 1px 1255px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes {
+    height: 260px;
+    width: 450px;
+    padding-top: 50px;
+    background-color: #e8e8e8;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 80px 0 120px;
+}
+.boxes h2 {
+    text-transform: uppercase;
+    text-align: center;
+}

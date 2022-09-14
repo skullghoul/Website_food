@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box {
+    flex: 25%;
+    height: 250px;
+    background-color: white;
+    border: 3px solid orange;
+    
+}
+.box img {
+    width: 100%;
+}

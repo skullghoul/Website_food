@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    background-color: rgb(48, 48, 48)
+}
+section {
+    border-bottom: 10px solid white;
+    width: 100%;
+    height: 700px;
+
+}
+.sec1 {
+    background-image: url(../images/Driftredbull.jpeg);
+    background-size: cover;
+}
+.sec2 {
+position: relative;
+
+}
+.sec3 {
+    background-image: url(../images/MarioBackground.jpeg);
+}
+.yoshier {
+background-color: transparent;
+ animation-name: yoshiMove;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+ animation-fill-mode: both;
+ animation-direction: normal;
+ display: flex;
+}
+@keyframes yoshiMove {
+    0%{padding: 524px 0 0 0}
+    25%{padding: 524px 0 0 400px;}
+    50%{padding: 480px 0 0 450px;}
+    75%{padding: 480px 0 0 600px;}
+    100%{padding: 524px 0 0 800px;}
+}
+
+.header {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+header {
+    display: flex;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    background-color: rgb(201, 201, 201);
+}
+.skrrt{
+    display: none;
+    width: 1413px;
+}
+.zooom {
+    display: none;
+}
+.stutu {
+    display: none;
+}
+.Button{
+    background-color: red;
+    display: inline;
+
+    }
+.Button:hover {
+    animation-name: running;
+    animation-name: doAFlip;
+    animation-duration: 8s;
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    background-color: red;
+}
+
+.newColorA {
+    display:none;
+    margin: 20px;
+}
+@media screen and (max-width:1413px){
+    .sec1 {
+        background-image: url(../images/f1Racer.jpeg);
+    }
+}
+@media screen and (max-width:1073px){
+    .sec1 {
+        background-image: url(../images/BOOM.jpeg);
+    }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+}
+.aCol {
+    display: flex;
+    justify-content: space-around;
+}
+.zoomies {
+    height: 500px;
+    background-color: black;
+}
+.column2 {
+    background-color: black;
+    height: 500px;
+    width: 300px;
+    background-image: url(../images/socialim.webp);
+    background-size: 100px;
+}
+.column3 {
+
+}
+.list {
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);
+    height: 500px;
+    width: 300px;
+    position: relative;
+}
+li {
+}
